@@ -19,8 +19,6 @@ spec:
       containers:
       - name: nodejs-app
         image: "tintranit02/firstpipeline:58"
-        command: [ "sleep" ]
-        args: [ "infinity" ]
         ports:
           - containerPort: 3000
 ---
