@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "tintranit02/firstpipeline:$BUILD_ID"
+        image: "tintranit02/firstpipeline:58"
         ports:
           - containerPort: 3000
 ---
