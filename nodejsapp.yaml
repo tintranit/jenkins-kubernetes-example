@@ -19,13 +19,6 @@ spec:
       containers:
       - name: nodejs-app
         image: "tintranit02/firstpipeline:latest"
-        resources:
-          requests:
-            memory: "128Mi"
-            cpu: "250m"
-          limits:
-            memory: "256Mi"
-            cpu: "500m"
         ports:
           - containerPort: 3000
 ---
